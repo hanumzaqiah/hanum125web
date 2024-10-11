@@ -1,0 +1,90 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #002366; /* Biru tua */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #000000; /* Teks berwarna hitam */
+}
+
+.container {
+    background-color: #ffffff; /* Putih untuk kontras dengan biru */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #002366; /* Warna biru serasi */
+}
+
+.input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-top: 10px;
+    width: 80px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: 1px solid #002366; /* Garis biru tua */
+    background-color: #f2f2f2; /* Putih sedikit keabu-abuan */
+    color: #000000; /* Teks hitam */
+}
+
+.button-section {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    padding: 15px;
+    background-color: #0073e6; /* Biru lebih terang */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+}
+
+button:hover {
+    background-color: #005bb5; /* Biru yang lebih gelap pada hover */
+    transform: scale(1.05);
+}
+
+.result-section {
+    font-size: 1.8rem;
+    background-color: #003399; /* Biru tua untuk hasil */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: white; /* Warna putih untuk teks hasil */
+}
+
+.icon {
+    font-size: 2rem;
+}

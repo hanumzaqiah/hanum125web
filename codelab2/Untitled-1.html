@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Penjumlahan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Penjumlahan</h1>
+        <div class="input-section">
+            <div class="input-group">
+                <label for="num1">Bilangan 1:</label>
+                <input type="number" id="num1" placeholder="0">
+            </div>
+            <div class="input-group">
+                <label for="num2">Bilangan 2:</label>
+                <input type="number" id="num2" placeholder="0">
+            </div>
+        </div>
+        
+        <div class="button-section">
+            <!-- Menggunakan ikon + dan ↺ -->
+            <button onclick="penjumlahan()">
+                <span class="icon">+</span>
+            </button>
+            <button onclick="reset()">
+                <span class="icon">↺</span>
+            </button>
+        </div>
+
+        <div class="result-section">
+            <p>Hasil: <span id="hasil">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
