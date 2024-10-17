@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="header">
+            <h1>TO DO LIST</h1>
+            <div class="date-container">
+                <label for="date">Date:</label>
+                <input type="date" id="date">
+            </div>
+        </div>
+
+        <div class="task-section">
+            <h2>Morning Tasks</h2>
+            <ul id="morning-task-list"></ul>
+            <input type="text" id="morning-task-input" placeholder="Enter a task">
+            <button id="add-morning-task-btn">Add</button>
+        </div>
+
+        <div class="task-section">
+            <h2>Afternoon Tasks</h2>
+            <ul id="afternoon-task-list"></ul>
+            <input type="text" id="afternoon-task-input" placeholder="Enter a task">
+            <button id="add-afternoon-task-btn">Add</button>
+        </div>
+
+        <div class="task-section">
+            <h2>Evening Tasks</h2>
+            <ul id="evening-task-list"></ul>
+            <input type="text" id="evening-task-input" placeholder="Enter a task">
+            <button id="add-evening-task-btn">Add</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

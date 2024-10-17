@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.calculator {
+    width: 260px; 
+    background-color: #ffffff;
+    padding: 47px; 
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+#result {
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #b2a0a0;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 8px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+/* Warna tombol sesuai gambar */
+button:nth-child(1) { /* MRC */
+    background-color: #f4b5d1;
+}
+
+button:nth-child(2) { /* M- */
+    background-color: #f4b5d1;
+}
+
+button:nth-child(3) { /* M+ */
+    background-color: #f4b5d1;
+}
+
+button:nth-child(4) { /* % */
+    background-color: #f4b5d1;
+}
+
+button:nth-child(5) { /* 7 */
+    background-color: #f7e7a1;
+}
+
+button:nth-child(6) { /* 8 */
+    background-color: #f7e7a1;
+}
+
+button:nth-child(7) { /* 9 */
+    background-color: #f7e7a1;
+}
+
+button:nth-child(8) { /* ÷ */
+    background-color: #aad38a;
+}
+
+button:nth-child(9) { /* 4 */
+    background-color: #aad38a;
+}
+
+button:nth-child(10) { /* 5 */
+    background-color: #aad38a;
+}
+
+button:nth-child(11) { /* 6 */
+    background-color: #aad38a;
+}
+
+button:nth-child(12) { /* x */
+    background-color: #b292d4;
+}
+
+button:nth-child(13) { /* 1 */
+    background-color: #b292d4;
+}
+
+button:nth-child(14) { /* 2 */
+    background-color: #b292d4;
+}
+
+button:nth-child(15) { /* 3 */
+    background-color: #b292d4;
+}
+
+button:nth-child(16) { /* - */
+    background-color: #f8a858;
+}
+
+button:nth-child(17) { /* CE */
+    background-color: #f25f5c;
+}
+
+button:nth-child(18) { /* AC */
+    background-color: #f25f5c;
+}
+
+button:nth-child(19) { /* 0 */
+    background-color: #add8e6;
+}
+
+button:nth-child(20) { /* 00 */
+    background-color: #add8e6;
+}
+
+button:nth-child(21) { /* . */
+    background-color: #add8e6;
+}
+
+button:nth-child(22) { /* = */
+    background-color: #8bc34a;
+    color: white;
+}
